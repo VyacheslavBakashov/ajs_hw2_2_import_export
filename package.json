@@ -1,0 +1,44 @@
+{
+  "name": "hw2_2_import_export",
+  "version": "1.0.0",
+  "description": "hw2_2",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VyacheslavBakashov/ajs_hw2_2_import_export.git"
+  },
+  "keywords": [
+    "task2_2"
+  ],
+  "author": "BVV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VyacheslavBakashov/ajs_hw2_2_import_export/issues"
+  },
+  "homepage": "https://github.com/VyacheslavBakashov/ajs_hw2_2_import_export#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.21.5",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  },
+  "dependencies": {
+    "core-js": "^3.30.1"
+  }
+}
